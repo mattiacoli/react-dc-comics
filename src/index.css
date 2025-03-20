@@ -116,4 +116,33 @@ footer {
 
     }
   }
+
+  .foot_bar {
+
+    background-color: var(--dc-dark);
+    padding: 2rem;
+
+    .followUs {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      color: var(--dc-primary);
+
+      h3 {
+        text-transform: uppercase;
+      }
+
+
+      ul {
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+
+        a {
+          color: var(--dc-soft-dark);
+        }
+      }
+    }
+
+  }
 }

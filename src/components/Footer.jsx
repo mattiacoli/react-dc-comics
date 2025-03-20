@@ -1,4 +1,14 @@
-import FooterLogo from '/img/dc-logo-bg.png'
+import footerLogo from '/img/dc-logo-bg.png'
+import fbLogo from '/img/footer-facebook.png'
+import twitterLogo from '/img/footer-twitter.png'
+import youtubeLogo from '/img/footer-youtube.png'
+import pinterestLogo from '/img/footer-pinterest.png'
+import periscopeLogo from '/img/footer-periscope.png'
+
+
+
+
+
 
 export default function Footer() {
   return (
@@ -66,11 +76,31 @@ export default function Footer() {
 
         {/* Logo */}
         <div className="logo">
-          <img src={FooterLogo} alt="" />
+          <img src={footerLogo} alt="" />
+        </div>
+      </div>
+
+      <div className="foot_bar">
+        <div className="container">
+          <button>
+            SIGN-UP NOW!
+          </button>
+
+          <div className="followUs">
+            <h3>Follow Us</h3>
+            <ul>
+              <li><a href=""><img src={fbLogo} alt="" /></a></li>
+              <li><a href=""><img src={twitterLogo} alt="" /></a></li>
+              <li><a href=""><img src={youtubeLogo} alt="" /></a></li>
+              <li><a href=""><img src={pinterestLogo} alt="" /></a></li>
+              <li><a href=""><img src={periscopeLogo} alt="" /></a></li>
+            </ul>
+          </div>
         </div>
 
-
       </div>
+
+
     </footer>
   )
 }
