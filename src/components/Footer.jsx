@@ -80,11 +80,15 @@ export default function Footer() {
         </div>
       </div>
 
+      {/* Foot bar */}
       <div className="foot_bar">
         <div className="container">
-          <button>
-            SIGN-UP NOW!
-          </button>
+
+          <div className="signUp">
+            <h4>
+              SIGN-UP NOW!
+            </h4>
+          </div>
 
           <div className="followUs">
             <h3>Follow Us</h3>
@@ -96,8 +100,8 @@ export default function Footer() {
               <li><a href=""><img src={periscopeLogo} alt="" /></a></li>
             </ul>
           </div>
-        </div>
 
+        </div>
       </div>
 
 

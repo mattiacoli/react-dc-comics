@@ -77,6 +77,7 @@ main {
 
 /* Footer */
 footer {
+  position: relative;
   background-image: url('../public/img/footer-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -118,31 +119,42 @@ footer {
   }
 
   .foot_bar {
-
+    position: fixed;
+    width: 100%;
     background-color: var(--dc-dark);
     padding: 2rem;
 
-    .followUs {
-      display: flex;
-      align-items: center;
-      gap: 2rem;
-      color: var(--dc-primary);
+    .container {
+      min-height: 100%;
 
-      h3 {
-        text-transform: uppercase;
+
+      .signUp {
+        color: var(--dc-lighter);
+        border: 3px solid var(--dc-primary);
+        padding: 1rem 1rem;
       }
 
-
-      ul {
-        list-style: none;
+      .followUs {
         display: flex;
-        gap: 1rem;
+        align-items: center;
+        gap: 2rem;
+        color: var(--dc-primary);
 
-        a {
-          color: var(--dc-soft-dark);
+        h3 {
+          text-transform: uppercase;
+        }
+
+
+        ul {
+          list-style: none;
+          display: flex;
+          gap: 1rem;
+
+          a {
+            color: var(--dc-soft-dark);
+          }
         }
       }
     }
-
   }
 }
