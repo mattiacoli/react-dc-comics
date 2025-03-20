@@ -75,6 +75,32 @@ main {
   padding: 2rem 0;
 }
 
+/* Banner */
+.banner {
+  background-color: var(--dc-primary);
+  color: var(--dc-lighter);
+  font-weight: 600;
+  padding: 3rem 0;
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    figure {
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+
+      img {
+        width: 43px;
+        height: 57px;
+      }
+    }
+  }
+
+}
+
 /* Footer */
 footer {
   position: relative;
@@ -123,6 +149,7 @@ footer {
     width: 100%;
     background-color: var(--dc-dark);
     padding: 2rem;
+    max-height: 150px;
 
     .container {
       min-height: 100%;
