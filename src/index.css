@@ -67,12 +67,35 @@ header {
   }
 }
 
+/* Jumbotron */
+.jumbotron {
+  background-image: url('../public/img/jumbotron.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 300px;
+}
+
 /* Main */
 main {
+  position: relative;
   background-color: var(--dc-darker);
   color: var(--dc-lighter);
   min-height: 200px;
   padding: 2rem 0;
+
+
+
+  .container {
+    display: flex;
+
+    .label {
+      position: absolute;
+      top: -1.5rem;
+      background-color: var(--dc-primary);
+      padding: 0.5rem 1rem;
+    }
+  }
+
 }
 
 /* Banner */
