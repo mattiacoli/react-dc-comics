@@ -22,6 +22,20 @@
   margin: auto;
 }
 
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.col-2 {
+  width: calc((100% / 12) * 2);
+  flex-basis: auto;
+  padding: 1 rem;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -93,6 +107,12 @@ main {
       top: -1.5rem;
       background-color: var(--dc-primary);
       padding: 0.5rem 1rem;
+    }
+
+    .card {
+      img {
+        max-width: 100%;
+      }
     }
   }
 
