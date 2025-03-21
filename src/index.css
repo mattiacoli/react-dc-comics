@@ -33,7 +33,7 @@
 .col-2 {
   width: calc((100% / 12) * 2);
   flex-basis: auto;
-  padding: 1 rem;
+  padding: 1rem;
 }
 
 body {
@@ -100,7 +100,8 @@ main {
 
 
   .container {
-    display: flex;
+    margin-top: 1rem;
+
 
     .label {
       position: absolute;
@@ -110,8 +111,33 @@ main {
     }
 
     .card {
-      img {
-        max-width: 100%;
+
+      text-transform: uppercase;
+
+      figure {
+
+        img {
+          height: 150px;
+          width: 150px;
+
+        }
+      }
+
+    }
+
+    .loadMore {
+      margin-top: 2rem;
+      text-align: center;
+
+      button {
+        padding: 0.5rem 3rem;
+        border: none;
+        background-color: var(--dc-primary);
+        color: var(--dc-lighter);
+        font-weight: 700;
+        font-size: 1rem;
+        text-transform: uppercase;
+
       }
     }
   }
