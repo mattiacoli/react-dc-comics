@@ -9,7 +9,6 @@ import linksList from "./data/navLinks"
 import footerLinks from "./data/footerLinks"
 
 
-
 function App() {
 
   return (

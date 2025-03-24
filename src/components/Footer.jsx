@@ -6,12 +6,6 @@ import pinterestLogo from '/img/footer-pinterest.png'
 import periscopeLogo from '/img/footer-periscope.png'
 
 
-
-
-
-
-
-
 export default function Footer({ comicsLinks, policyLinks, siteLinks, shopLinks }) {
   return (
     <>
