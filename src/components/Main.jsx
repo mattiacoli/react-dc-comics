@@ -1,7 +1,6 @@
 import ComicsList from "./ComicsList"
-import comics from "../data/comics"
 
-export default function Main() {
+export default function Main({ comics }) {
   return (
     <main className="main_site">
 

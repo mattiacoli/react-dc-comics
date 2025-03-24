@@ -4,14 +4,17 @@ import Main from "./components/Main"
 import Footer from "./components/Footer"
 import Banner from "./components/Banner"
 
+import comics from "./data/comics"
+import linksList from "./data/navLinks"
+
 
 function App() {
 
   return (
     <>
-      <Header />
+      <Header linksList={linksList} />
       <Jumbotron />
-      <Main />
+      <Main comics={comics} />
       <Banner />
       <Footer />
 

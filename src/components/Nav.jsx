@@ -1,6 +1,4 @@
 function Nav({ linksList }) {
-
-
   return (
     <nav>
       <ul>
