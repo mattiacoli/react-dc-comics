@@ -6,6 +6,8 @@ import Banner from "./components/Banner"
 
 import comics from "./data/comics"
 import linksList from "./data/navLinks"
+import footerLinks from "./data/footerLinks"
+
 
 
 function App() {
@@ -16,7 +18,7 @@ function App() {
       <Jumbotron />
       <Main comics={comics} />
       <Banner />
-      <Footer />
+      <Footer comicsLinks={footerLinks.comicsLinks} policyLinks={footerLinks.policyLinks} shopLinks={footerLinks.shopLinks} siteLinks={footerLinks.siteLinks} />
 
     </>
   )
