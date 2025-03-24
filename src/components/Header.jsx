@@ -9,7 +9,7 @@ export default function Header({ linksList }) {
         {/* Logo */}
         <img src={logo} alt="" />
         {/* Navbar */}
-        <Nav links={linksList} />
+        <Nav linksList={linksList} />
       </div>
 
     </header>

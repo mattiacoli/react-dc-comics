@@ -1,4 +1,4 @@
-function Nav({ linksList }) {
+export default function Nav({ linksList }) {
   return (
     <nav>
       <ul>
