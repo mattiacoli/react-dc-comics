@@ -1,6 +1,7 @@
 import logo from '/img/dc-logo.png'
+import Nav from '../components/Nav'
 
-export default function Header() {
+export default function Header({ linksList }) {
   return (
     <header className="site_header">
 
@@ -8,22 +9,11 @@ export default function Header() {
         {/* Logo */}
         <img src={logo} alt="" />
         {/* Navbar */}
-        <nav>
-          <ul>
-            <li><a href="">CHARACTERS</a></li>
-            <li><a href="">COMICS</a></li>
-            <li><a href="">MOVIES</a></li>
-            <li><a href="">TV</a></li>
-            <li><a href="">COLLECTIBLES</a></li>
-            <li><a href="">VIDEOS</a></li>
-            <li><a href="">FANS</a></li>
-            <li><a href="">NEWS</a></li>
-            <li><a href="">SHOP</a></li>
-          </ul>
-        </nav>
-
+        <Nav links={linksList} />
       </div>
 
     </header>
   )
 }
+
+
